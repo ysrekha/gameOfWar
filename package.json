@@ -1,0 +1,17 @@
+{
+  "name": "wargameassignment",
+  "version": "1.0.0",
+  "main": "gameOfWar.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha -r esm test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "esm": "^3.2.25",
+    "mocha": "^10.4.0"
+  }
+}
