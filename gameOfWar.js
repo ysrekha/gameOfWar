@@ -1,16 +1,24 @@
 /*
-    Represents a single playing card with a value and suit. 
-    The toString() method provides a formatted string representation of the card.
+
+REQUIREMENTS:-
+**************
+1.) In this version there are only 2 players.
+2.) Do not need to accept any user input.
+3.) Deal 26 Cards to each Player from a Deck of 52 cards.
+4.) Iterate through the turns where each Player plays a Card.
+5.) The Player who played the higher card is awarded a point.
+6.) Ties result in zero points for both Players.
+7.) After all cards have been played, display the score and declare the winner.
+*/
+
+
+/*
+    The Card class represents a single playing card with a value and suit. 
 */
 export class Card {
     constructor(value, suit) {
         this.value = value; // Initialize card value
         this.suit = suit;   // Initialize card suit
-    }
-
-    // Method to get a string representation of the card
-    toString() {
-        return `${this.value} of ${this.suit}`;
     }
 }
 
